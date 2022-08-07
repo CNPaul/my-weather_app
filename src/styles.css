@@ -1,0 +1,239 @@
+body {
+  background: linear-gradient(
+    to top,
+    lightgrey 0%,
+    lightgrey 1%,
+    #e0e0e0 26%,
+    #efefef 48%,
+    #d9d9d9 75%,
+    #bcbcbc 100%
+  );
+  margin: 20px auto;
+  width: 100%;
+}
+
+.container {
+  border: 5px solid #a9b3c2c4;
+  border-radius: 30px;
+}
+
+.search-column {
+  display: block;
+  margin: 10px 10px;
+  width: 45%;
+}
+
+form {
+  margin: 20px auto;
+  position: relative;
+}
+
+.the-buttons {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+}
+
+.features {
+  font-family: "Ubuntu", sans-serif;
+  position: absolute;
+  left: 230px;
+  top: 100px;
+}
+
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  display: block;
+  margin-left: 5px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.lagos-icon {
+  color: #bbb9b3;
+  font-size: 70px;
+  position: absolute;
+  top: 155px;
+  left: 115px;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  margin: 0 9px;
+}
+
+.first-day-cloud {
+  margin: 0 30px 0 0;
+}
+
+.second-day-cloud {
+  margin: 0 30px 0 0;
+}
+
+.third-day-cloud {
+  margin: 0 30px 0 0;
+}
+
+.fourth-day-cloud {
+  margin: 0 20px 0 0;
+}
+
+.fifth-day-cloud {
+  margin: 0 30px 0 0;
+}
+
+.sixth-day-cloud {
+  margin: 0 30px 0 0;
+}
+
+@media (min-width: 440px) and (max-width: 730px) {
+  .features {
+    left: 400px;
+    top: 130px;
+  }
+  .lagos-icon {
+    font-size: 100px;
+    top: 135px;
+    left: 230px;
+  }
+  li {
+    display: inline;
+    text-align: center;
+    margin: 0 22px;
+  }
+
+  .first-day-cloud {
+    margin: 0 50px 0 15px;
+  }
+
+  .second-day-cloud {
+    margin: 0 55px 0 0;
+  }
+
+  .third-day-cloud {
+    margin: 0 55px 0 0;
+  }
+
+  .fourth-day-cloud {
+    margin: 0 57px 0 0;
+  }
+
+  .fifth-day-cloud {
+    margin: 0 45px 0 0;
+  }
+
+  .sixth-day-cloud {
+    margin: 0 30px 0 0;
+  }
+}
+
+@media (min-width: 731px) {
+  .features {
+    left: 400px;
+    top: 130px;
+  }
+  .lagos-icon {
+    font-size: 100px;
+    top: 135px;
+    left: 230px;
+  }
+  li {
+    display: inline;
+    text-align: center;
+    margin: 0 22px;
+  }
+
+  .first-day-cloud {
+    margin: 0 50px 0 15px;
+  }
+
+  .second-day-cloud {
+    margin: 0 55px 0 0;
+  }
+
+  .third-day-cloud {
+    margin: 0 55px 0 0;
+  }
+
+  .fourth-day-cloud {
+    margin: 0 57px 0 0;
+  }
+
+  .fifth-day-cloud {
+    margin: 0 45px 0 0;
+  }
+
+  .sixth-day-cloud {
+    margin: 0 30px 0 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .search-column {
+    width: 60%;
+    margin: 10px 5px;
+  }
+
+  .the-buttons {
+    margin: 0 0;
+    left: 65%;
+    top: 0px;
+  }
+
+  .features {
+    left: 700px;
+    top: 130px;
+  }
+  .lagos-icon {
+    font-size: 130px;
+    top: 135px;
+    left: 270px;
+  }
+  li {
+    display: inline;
+    text-align: center;
+    margin: 0 70px;
+  }
+
+  .first-day-cloud {
+    margin: 0 160px 0 65px;
+  }
+
+  .second-day-cloud {
+    margin: 0 150px 0 0;
+  }
+
+  .third-day-cloud {
+    margin: 0 140px 0 0;
+  }
+
+  .fourth-day-cloud {
+    margin: 0 145px 0 0;
+  }
+
+  .fifth-day-cloud {
+    margin: 0 150px 0 0;
+  }
+
+  .sixth-day-cloud {
+    margin: 0 80px 0 0;
+  }
+}
